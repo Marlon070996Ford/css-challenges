@@ -1,9 +1,11 @@
 /* Base Styles */
 
+/* adding bg color */
 body {
     background-color: cornflowerblue;
 }
 
+/* adding color to my headings */
 h1 {
     color: deeppink;
 }
@@ -15,6 +17,7 @@ h3 {
     color: crimson;
 }
 
+/* changing the font of the paragraph */
 p {
     font-family: 'Black And White Picture', sans-serif;
 }
