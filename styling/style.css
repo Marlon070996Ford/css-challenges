@@ -1,0 +1,55 @@
+/* base styles */
+
+h1 {
+    font-size: 1.25rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.code {
+    font-family: cursive;
+}
+
+placeholder {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a:link {
+    color: steelblue;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #bada55;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: slateblue;
+  }
+  
+  /* selected link */
+  a:active {
+    color: royalblue;
+  }
+
+  .btn {
+      background-color: crimson;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: aqua;
+      padding: 0.625rem;
+  }
+
+  .container {
+      width: 9.375rem;
+      height: 3.125rem;
+      background-color: yellow;
+      text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .footer  {
+      background-color: tomato;
+      position: sticky;
+      float: left;
+      width: 100%;
+  }
