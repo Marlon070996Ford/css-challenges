@@ -1,24 +1,23 @@
 #speech-bubble {
-    width: 7.25rem;
+    margin-left: 40px;
+    width: 8.25rem;
     height: 7.25rem;
     border-radius: 10%;
     background-color: #bada55;
     position: relative;
+    text-align: center;
+    padding-top: 30px;
 }
 
-#speech-bubble:before {
-    position: absolute;
-    top: 110px;
-    right: 80px;
+.arrow {
+    color: #bada55;
+    margin-top: -100px;
+    float: left;
+    top: 80px;
+    right: 60px;
     content: '';
-    border-top: 30px solid transparent;
-    border-left: 30px solid transparent;
-    border-right: 30px solid;
-    border-bottom: 30px solid transparent;
-
-
-
-
-
-
+    border-top: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-right: 20px solid;
+    border-bottom: 20px solid transparent;
 }
